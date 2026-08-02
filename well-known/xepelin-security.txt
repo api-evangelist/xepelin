@@ -1,0 +1,3 @@
+Contact: mailto security @ xepelin com
+Canonical: https://xepelin.com/.well-known/security.txt
+Preferred-Languages: en,es

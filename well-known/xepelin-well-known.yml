@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/ on xepelin.com and app.xepelin.com
+hosts:
+- host: https://xepelin.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: xepelin-security.txt
+    note: real RFC 9116 document (text/plain); Contact value published obfuscated
+  - path: /.well-known/openid-configuration
+    status: 200
+    soft_404: true
+    note: Next.js catch-all returns 200 HTML that client-redirects to /not-found
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    soft_404: true
+  - path: /.well-known/api-catalog
+    status: 200
+    soft_404: true
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    soft_404: true
+  - path: /llms.txt
+    status: 200
+    soft_404: true
+- host: https://app.xepelin.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    note: same content as xepelin.com with Canonical pointing at app.xepelin.com
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

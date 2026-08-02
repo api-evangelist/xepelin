@@ -1,7 +1,13 @@
 aid: xepelin
 name: Xepelin
-description: Xepelin is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Xepelin is a Chilean-founded fintech operating in Chile and Mexico that
+  provides digital financial services for small and mid-sized businesses, including
+  invoice factoring (adelanto de facturas), supplier payment financing (confirming),
+  working capital credit lines, and collections and payments management, alongside
+  XData, a financial-intelligence product for evaluating clients and suppliers. The
+  company reports more than 60,000 business customers and over five billion USD financed
+  in the last three years, with digital credit approval in under 24 hours. Xepelin
+  does not currently publish a public developer API, developer portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/xepelin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +15,79 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://xepelin.com/favicon.ico
 tags:
 - Company
+- Fintech
+- Factoring
+- Invoice Financing
+- Working Capital
+- Payments
+- Lending
+- SMB
+- Latin America
+- Financial Intelligence
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/xepelin-vulnerability-disclosure.yml
+- type: Security
+  url: https://xepelin.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/xepelin-domain-security.yml
+- type: Website
+  url: https://xepelin.com
+- type: Blog
+  url: https://xepelin.com/blog
+- type: Support
+  url: https://xepelin.cl/centro-de-ayuda
+- type: GitHubOrganization
+  url: https://github.com/xepelinapp
+- type: SignUp
+  url: https://app.xepelin.com/register/
+- type: Login
+  url: https://app.xepelin.com/login/
+- type: TermsOfService
+  url: https://xepelin.cl/legal/terminos-y-condiciones
+- type: PrivacyPolicy
+  url: https://xepelin.cl/legal/politica-de-privacidad
+- type: Pricing
+  url: https://xepelin.cl/legal/tasas-y-comisiones
+- type: Careers
+  url: https://xepelin.com/trabaja-con-nosotros
+- type: LinkedIn
+  url: https://www.linkedin.com/company/xepelinofficial/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCVvKrRx0AEMXsDHNuA_TAIA
+- type: Instagram
+  url: https://www.instagram.com/xepelinoficial
+- type: Packages
+  url: packages/xepelin-packages.yml
+- type: WellKnown
+  url: well-known/xepelin-well-known.yml
+- type: SecurityTxt
+  url: well-known/xepelin-security.txt
+- type: LLMsTxt
+  url: llms/xepelin-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

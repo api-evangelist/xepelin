@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: npm registry search for "xepelin" (registry.npmjs.org); PyPI, GitHub org checked
+notes: Xepelin publishes no public API client SDKs. The npm packages below carry
+  the Xepelin name but are internal tooling (QA automation helpers) and a design
+  system, not client libraries for a public API. PyPI has no xepelin package. The
+  public GitHub org (github.com/xepelinapp) contains only infrastructure forks and
+  CI utilities.
+packages:
+- language: javascript
+  registry: npm
+  name: '@xepelin/x-ds'
+  url: https://www.npmjs.com/package/@xepelin/x-ds
+  install: npm install @xepelin/x-ds
+  official: true
+  kind: design-system
+  note: React design system; maintainer email is @xepelin.com; repo github.com/xepelinapp/x-ds
+    (private); last published 2022-05-20 (v1.9.0)
+- language: javascript
+  registry: npm
+  name: xepelin-api-core
+  url: https://www.npmjs.com/package/xepelin-api-core
+  install: npm install xepelin-api-core
+  official: false
+  kind: qa-automation
+  note: published by qa-xepelin-automation (personal email); internal test-automation
+    helper, not a public API SDK; last published 2024-10-09 (v1.2.13)
+- language: javascript
+  registry: npm
+  name: xepelin-web-core
+  url: https://www.npmjs.com/package/xepelin-web-core
+  official: false
+  kind: qa-automation
+  note: sibling of xepelin-api-core, same publisher; last published 2024-10-09 (v1.2.10)
