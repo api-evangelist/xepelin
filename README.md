@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Xepelin is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Xepelin is a Chilean-founded fintech operating in Chile and Mexico that provides digital financial services for small and mid-sized businesses, including invoice factoring (adelanto de facturas), supplier payment financing (confirming), working capital credit lines, and collections and payments management, alongside XData, a financial-intelligence product for evaluating clients and suppliers. The company reports more than 60,000 business customers and over five billion USD financed in the last three years, with digital credit approval in under 24 hours. Xepelin does not currently publish a public developer API, developer portal, or API documentation.
 
-Backed by: battery-ventures
+**Areas:** Company · Fintech · Factoring · Invoice Financing · Working Capital · Payments · Lending · Small Business · Latin America · Financial Intelligence
+
+## Xepelin on APIs.io
+
+Everything profiled for Xepelin is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/xepelin/](https://apis.io/providers/xepelin/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Xepelin Domain Security](https://apis.io/security/xepelin/xepelin-domain-security/)
+- [Xepelin Vulnerability Disclosure](https://apis.io/security/xepelin/xepelin-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://xepelin.com)
+- [Pricing](https://xepelin.cl/legal/tasas-y-comisiones)
+- [Sign up](https://app.xepelin.com/register/)
+- [Support](https://xepelin.cl/centro-de-ayuda)
+- [Blog](https://xepelin.com/blog)
+- [Security](https://xepelin.com/.well-known/security.txt)
+- [Terms of service](https://xepelin.cl/legal/terminos-y-condiciones)
+- [Privacy policy](https://xepelin.cl/legal/politica-de-privacidad)
+- [GitHub](https://github.com/xepelinapp)
+
+## API Evangelist rating
+
+**Kin Score 16.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 2.9** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.9** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/xepelin/](https://apis.io/providers/xepelin/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Xepelin: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/xepelin/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
